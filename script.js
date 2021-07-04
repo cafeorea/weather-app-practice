@@ -63,8 +63,8 @@ function toggle(event) {
         temps.innerText = temp;
       }
     }
-    for (let element in celFar) {
-      celFar[element].innerText = "°F";
+    for (let element of celFar) {
+      element.innerText = "°F";
     }
   } else {
     unit.innerText = "celsius";
@@ -83,8 +83,8 @@ function toggle(event) {
         temps.innerText = temp.toFixed(1);
       }
     }
-    for (let element in celFar) {
-      celFar[element].innerText = "°C";
+    for (let element of celFar) {
+      element.innerText = "°C";
     }
   }
 }
