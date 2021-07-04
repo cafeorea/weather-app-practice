@@ -168,6 +168,7 @@ form {
 
 footer {
   position: fixed;
+  padding: 0px;
   bottom: 0;
   font-size: 8px;
   width: 100%;
